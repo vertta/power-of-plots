@@ -7,34 +7,6 @@ Access was given to he complete data from their most recent animal study. In thi
 
 This document contains list of tables and figures needed for the technical report of the study along with a summary of observations. 
 
-## Instructions
-
-Your tasks are to do the following:
-
-* Prepare the data.
-
-* Generate summary statistics.
-
-* Create bar charts and pie charts.
-
-* Calculate quartiles, find outliers, and create a box plot.
-
-* Create a line plot and a scatter plot.
-
-* Calculate correlation and regression. 
-
-* Submit your final analysis. 
-
-### Prepare the Data
-
-
-1. Run the provided package dependency and data imports, and then merge the `mouse_metadata` and `study_results` DataFrames into a single DataFrame.
-2
-
-2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining step.
-
-3. Display the updated number of unique mice IDs.
-
 ### Sample of Data 
 
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/75756974/182083169-42d9f172-62e3-42d1-97b7-345696f7f971.png">
@@ -48,13 +20,11 @@ Duplicates information contained within this data was removed
 
 Create two summary statistics DataFrames:
 
-    * For the first table, use the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This should result in five unique series objects. Combine these objects into a single summary statistics DataFrames.
 
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/75756974/182083621-1c3368fa-604e-4fe6-a429-9f4ac9a69a45.png">
 
-    * For the second table, use the `agg` method to produce the same summary statistics table by using a single line of code.
-    
-    <img width="391" alt="image" src="https://user-images.githubusercontent.com/75756974/182083683-dba03cbb-b367-4394-8c2e-74b7e07f1748.png">
+ 
+ <img width="391" alt="image" src="https://user-images.githubusercontent.com/75756974/182083683-dba03cbb-b367-4394-8c2e-74b7e07f1748.png">
 
 
 ### Create Bar Charts and a Pie Charts
